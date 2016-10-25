@@ -93,3 +93,26 @@ WebShopping -[#0000FF]-> User : Delivery
 ```
 
 [![IMAGE ALT TEXT](http://www.plantuml.com/plantuml/img/bP9DQyCm38Rl_XMYW-qKsBbifILTOOVHGFPnA3quiTAQENAmrPRy-odfEhgFRCp7LuzUyKgUHjQ1TxLJYYqxXD6Id2M4VEkRnj9cfDHJn91Cu0KB6CEoGO9UWgDs0gLsHonoRXb_1ReQwHeXWKp7UF31g7DEskQQTQ4ZIa-wnVAr5zH9JLONr_8MY_NN2JUL9uRIEnzk0ve9hEvfhvqrQyWSTeQFePrjjAL_cXLkX-BsVFGIvW1Py9LrGr5pT5Xo1vbToGFGp1XW3wcSuCyDl3iDxJxrLDbGmwKar1GhOHuyOVlPzpnhxpE6EJgxnz2gAPBfFuAwoakKA_z0Vr_9nxJKrur3nZS0)
+
+
+* รูปที่ 5 ตู้เติมเงินมือถือ
+```
+@startuml
+
+title "Top up Mobile"
+
+User -> TopUpMachine : Touch Sceen 
+User -> TopUpMachine : Select Mobile Network
+User -> TopUpMachine : Press Mobile Number
+TopUpMachine -> System : Check Mobile Network/Number
+System -[#0000FF]-> TopUpMachine :<font color=red> [Warning] Not Match
+System -[#0000FF]-> TopUpMachine :<font color=blue> [Access grant] Match
+User -> TopUpMachine : Insert Money
+TopUpMachine -> System : Check the accuracy 
+System -[#0000FF]-> TopUpMachine : <font color=red>[Denied] Refund 
+System -[#0000FF]-> TopUpMachine : <font color=blue>[Success] Complete
+TopUpMachine -> User : Top up Complete
+
+@enduml
+```
+[![IMAGE ALT TEXT](http://www.plantuml.com/plantuml/img/bP8nQyCm48Lt_OeZ7Jg5TYvjI4a9T4WeTK87uq4-dsCHMJBIYU9_Nzbn0uanRRH9-kxTlUCjFKl7eTP2i69DCDlP1a836vihJJCXzfuSp1SGt_VDHcAb3C5Jl0Qi844Y0rDCGfgG1odO4dzRTvo2FnnvVsP3dPCJ5qWiILhFL4TuLH4UhuGVXg81cgTtZ_6irzcertDf3GDQRTsBes81wPTqHfb31biRvvMCrOqokGuKTLuHEnS79mrdWz24ttSJtxlb66h_CieLWKGCJc8B_vWChXscRsGK5HbyKXbCSRD6RozDGcylWvMj6qrCexbxhrqu-WoTiIMPei-Ok3ybvgBlgMYypLtSeY_Ztw_E3m00)
