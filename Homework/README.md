@@ -23,3 +23,24 @@ Application -[#0000FF]-> User : <font color=blue><b> Login Success
 ```
 
 [![IMAGE ALT TEXT](http://www.plantuml.com/plantuml/img/hP8nJyCm48Lt_ufJcICOcAeIjGfawX0f1GR4u3f7Ui8vL_O5b7-FGo6DKg4or9lbp--zUxfb4EsbRQnIGc8HPcjN4yEQ6C4n51dav8DigC6PKey1VPB2Qh-tPBHG9ERmm88U-YVM3S8r53g4J-ShDUQIjEo2O0FpR8Vc_SWdH_w7Y0w_B1nWsI5eOrglJGS3zd9r4q-Ulvv48lxGbYO1ndZl7hd5csC1uwppTnwhTB5DdxLduXeAYpeWR7m7greJdtSTYsrjYxqQF9tc6DnBv0fkatkgIU8bZaVIGUOgXE-cuO-gIpz2fzgJvlxNwUM6ErFoyFMmPcLh38QWr39M4RVm2m00)
+
+* รูปที่ 2 โอนเงินผ่านตู้ ATM
+```
+@startuml
+
+title "Transfer Monet at ATM"
+
+User-> ATMmachine : Insert Card
+ATMmachine -> KeyPad : Press Password
+KeyPad -[#0000FF]-> ATMmachine : <font color=blue> [Valid] Access to Menu
+ATMmachine -> Sceen : Open Menu
+User -> Sceen : Select Menu "Transfer"
+User -> KeyPad : Press Account Number - Amount Money
+Sceen -[#0000FF]-> User : Show Account Name & Amount Money & Fee
+User -> Sceen : Check the accuracy
+User -> KeyPad : Press Enter
+Sceen -[#0000FF]-> User :<font color=blue> Transfer Complete
+
+@enduml
+```
+[![IMAGE ALT TEXT](http://www.plantuml.com/plantuml/img/TL7BQiD03BplLmWNUWlqNDeGOse8nQqXQIyX1sMjODDzX5qjmNzVsIrvE6GlYpIZqKXQHCR0oHgbk6D3aAq3khYd09Ltn80C-RhAbFgA56Rp8R2esyuHFCFIIPAXmD2e2q1exzJNs0Yb3XGZr1ZZqGlhFp_RF3p9AyljLF9bxns3ziQ7rvr9D8VDDvgksKAkzI357YfoQT9lfOcSb7yUv1lnmUybiY93caViF6HseaqCIpEVnCX7ihk10BaTus4flVhJl1fYr94khJ-UYz4IF5wLIbWItPWhMj8_m2q1Qfq2wlwUiJV75EuRk5tVwPw5jmT3J4ejo3Loyby0)
