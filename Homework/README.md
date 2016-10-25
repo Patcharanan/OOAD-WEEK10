@@ -1,1 +1,25 @@
+# Sequance Diagram
 
+* รูปที่ 1 Application Line FirtsTime
+```
+@startuml
+
+title "Login Line on PC FirstTime"
+
+User-> Application : Enter Username / Password
+Application ->System :Check Username - Password
+System -> System : Check the accuracy 
+System -[#0000FF]-> Application : invalid
+Application -[#0000FF]-> User : <font color=red><b>Warning Please Try Again
+System -[#0000FF]-> Application :<font color=blue><b> Valid
+Application -> User : Send 4-Digit Security Code 
+User -> Application : Enter Srcurity Code
+Application -> System : Check 
+System -> System : Check the accuracy
+System -[#0000FF]-> Application :<font color=blue><b> Valid
+Application -[#0000FF]-> User : <font color=blue><b> Login Success
+
+@enduml
+```
+
+[![IMAGE ALT TEXT](http://www.plantuml.com/plantuml/img/hP8nJyCm48Lt_ufJcICOcAeIjGfawX0f1GR4u3f7Ui8vL_O5b7-FGo6DKg4or9lbp--zUxfb4EsbRQnIGc8HPcjN4yEQ6C4n51dav8DigC6PKey1VPB2Qh-tPBHG9ERmm88U-YVM3S8r53g4J-ShDUQIjEo2O0FpR8Vc_SWdH_w7Y0w_B1nWsI5eOrglJGS3zd9r4q-Ulvv48lxGbYO1ndZl7hd5csC1uwppTnwhTB5DdxLduXeAYpeWR7m7greJdtSTYsrjYxqQF9tc6DnBv0fkatkgIU8bZaVIGUOgXE-cuO-gIpz2fzgJvlxNwUM6ErFoyFMmPcLh38QWr39M4RVm2m00)
