@@ -70,3 +70,26 @@ MobileBanking -[#0000FF]-> User : <font color=red> Message "Success"
 @enduml
 ```
 [![IMAGE ALT TEXT](http://www.plantuml.com/plantuml/img/ZLF1JW8n4BttAoQOuCdecI1X8N8n20ae1-DXjZkm3TtffkrA-7kxHJU0GBQNTjBtNb_UJ8VEe_LLeONmock2pj8YkpLPc1ec3olbyt1CbQQE4E-ExCFWjuOUp4fYICfIAubU6Ou0Q10ZvAtYJG2-i0yNyVOHvkZSpjXCdA8kqCOvoItud02bh2pA_Jddy-ufhCdawzYMuc_Kwa__51GzzA2_Dkn16ctiiwLiq4y7AxHSQyureIDOsZqa6rJSvibZkLHNLEl1HpHnBP94Id8EbgPLW8SaHgYH9RKAOP6RNKEutPTWnLJ1_rjLfA7iGbB4kXw1VTikDI9O4BHtU4Bh7fuC-uJEJGV2tDQ9pLvlobzfC4m35pTXmXTLJBuZXiHP77rnlv0K9lc2ph_6GlD1ngOeDNdw0G00)
+
+* รูปที่ 4 ซื้อสินค้าออนไลน์
+```
+@startuml
+
+title "Online Shopping"
+
+User-> Web : Open 
+User -> WebShopping : Enter Site
+User -> WebShopping : Enter Username - Password
+WebShopping -> Database : Check Data
+Database-[#0000FF]-> WebShopping :<font color=red> [Invalid] Please TryAgain
+Database-[#0000FF]-> WebShopping :<font color=blue> [Valid] Show Profile
+User -> WebShopping : Select Product
+User -> WebShopping : Add to Cart
+WebShopping -> Database : Check Product 
+User -> WebShopping : Confirm & Transfer Money
+WebShopping -[#0000FF]-> User : Delivery
+
+@enduml
+```
+
+[![IMAGE ALT TEXT](http://www.plantuml.com/plantuml/img/bP9DQyCm38Rl_XMYW-qKsBbifILTOOVHGFPnA3quiTAQENAmrPRy-odfEhgFRCp7LuzUyKgUHjQ1TxLJYYqxXD6Id2M4VEkRnj9cfDHJn91Cu0KB6CEoGO9UWgDs0gLsHonoRXb_1ReQwHeXWKp7UF31g7DEskQQTQ4ZIa-wnVAr5zH9JLONr_8MY_NN2JUL9uRIEnzk0ve9hEvfhvqrQyWSTeQFePrjjAL_cXLkX-BsVFGIvW1Py9LrGr5pT5Xo1vbToGFGp1XW3wcSuCyDl3iDxJxrLDbGmwKar1GhOHuyOVlPzpnhxpE6EJgxnz2gAPBfFuAwoakKA_z0Vr_9nxJKrur3nZS0)
