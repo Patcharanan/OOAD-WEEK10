@@ -1,6 +1,6 @@
 # Sequance Diagram
 
-* รูปที่ 1 Application Line FirtsTime
+* ##รูปที่ 1 Application Line FirtsTime
 ```
 @startuml
 
@@ -24,7 +24,7 @@ Application -[#0000FF]-> User : <font color=blue><b> Login Success
 
 [![IMAGE ALT TEXT](http://www.plantuml.com/plantuml/img/hP8nJyCm48Lt_ufJcICOcAeIjGfawX0f1GR4u3f7Ui8vL_O5b7-FGo6DKg4or9lbp--zUxfb4EsbRQnIGc8HPcjN4yEQ6C4n51dav8DigC6PKey1VPB2Qh-tPBHG9ERmm88U-YVM3S8r53g4J-ShDUQIjEo2O0FpR8Vc_SWdH_w7Y0w_B1nWsI5eOrglJGS3zd9r4q-Ulvv48lxGbYO1ndZl7hd5csC1uwppTnwhTB5DdxLduXeAYpeWR7m7greJdtSTYsrjYxqQF9tc6DnBv0fkatkgIU8bZaVIGUOgXE-cuO-gIpz2fzgJvlxNwUM6ErFoyFMmPcLh38QWr39M4RVm2m00)
 
-* รูปที่ 2 โอนเงินผ่านตู้ ATM
+* ##รูปที่ 2 โอนเงินผ่านตู้ ATM
 ```
 @startuml
 
