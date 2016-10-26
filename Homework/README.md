@@ -28,7 +28,7 @@ Application -[#0000FF]-> User : <font color=blue><b> Login Success
 ```
 @startuml
 
-title "Transfer Monet at ATM"
+title "Transfer Money at ATM"
 
 User-> ATMmachine : Insert Card
 ATMmachine -> KeyPad : Press Password
@@ -43,8 +43,8 @@ Sceen -[#0000FF]-> User :<font color=blue> Transfer Complete
 
 @enduml
 ```
-[![IMAGE ALT TEXT](http://www.plantuml.com/plantuml/img/TL7BQiD03BplLmWNUWlqNDeGOse8nQqXQIyX1sMjODDzX5qjmNzVsIrvE6GlYpIZqKXQHCR0oHgbk6D3aAq3khYd09Ltn80C-RhAbFgA56Rp8R2esyuHFCFIIPAXmD2e2q1exzJNs0Yb3XGZr1ZZqGlhFp_RF3p9AyljLF9bxns3ziQ7rvr9D8VDDvgksKAkzI357YfoQT9lfOcSb7yUv1lnmUybiY93caViF6HseaqCIpEVnCX7ihk10BaTus4flVhJl1fYr94khJ-UYz4IF5wLIbWItPWhMj8_m2q1Qfq2wlwUiJV75EuRk5tVwPw5jmT3J4ejo3Loyby0)
 
+[![IMAGE ALT TEXT](http://www.plantuml.com/plantuml/img/TL7BQiD03BplLmWNUWlqNDeGOse8nQqXQIyX1sMjODDzX5qjmNzVsIrvE6GlYpIZqKXQHCR0oHgbk6D3aAq3khYd09Ltr0CovEigK-ehKfZDXy2YRZj7y0nB9qc60aEZBW2XlLDVOoEKEb2CK6ECHo-i__niy_0ahootKycNlNSCsXiVNdScqHmstsYwPWkvreCKUwZ8fKc_bIPoKlvva6_41x-No8eCQHwnyv3PYJOnBCry4YCVoUu60kHsZCUbg3_Dgo567UdI-kEv62t1urMfX2NHZRcY9Vq3t1AWrYcWxkyPUtDCuRw1s_MTxbbuUp34fDI2N2Cd_mK0)
 
 * รูปที่ 3 โอนเงินผ่านมือถือ
 ```
