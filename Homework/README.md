@@ -50,7 +50,7 @@ Sceen -[#0000FF]-> User :<font color=blue> Transfer Complete
 ```
 @startuml
 
-title "Transfer Monet With Mobile"
+title "Transfer Money With Mobile"
 
 User-> Mobile : Open Application
 User -> MobileBanking : Enter User / Password
@@ -69,7 +69,7 @@ MobileBanking -[#0000FF]-> User : <font color=red> Message "Success"
 
 @enduml
 ```
-[![IMAGE ALT TEXT](http://www.plantuml.com/plantuml/img/ZLF1JW8n4BttAoQOuCdecI1X8N8n20ae1-DXjZkm3TtffkrA-7kxHJU0GBQNTjBtNb_UJ8VEe_LLeONmock2pj8YkpLPc1ec3olbyt1CbQQE4E-ExCFWjuOUp4fYICfIAubU6Ou0Q10ZvAtYJG2-i0yNyVOHvkZSpjXCdA8kqCOvoItud02bh2pA_Jddy-ufhCdawzYMuc_Kwa__51GzzA2_Dkn16ctiiwLiq4y7AxHSQyureIDOsZqa6rJSvibZkLHNLEl1HpHnBP94Id8EbgPLW8SaHgYH9RKAOP6RNKEutPTWnLJ1_rjLfA7iGbB4kXw1VTikDI9O4BHtU4Bh7fuC-uJEJGV2tDQ9pLvlobzfC4m35pTXmXTLJBuZXiHP77rnlv0K9lc2ph_6GlD1ngOeDNdw0G00)
+[![IMAGE ALT TEXT](http://www.plantuml.com/plantuml/img/ZL91Ri8m4Bpd5IigSQlQCw8HeMek5GM9j1og7ZREabWuQsGxHVo-ZaiZWWgAJrvvPZoQdPbrQ5nJgoXoqYc2KMQGxPOCB3JJ4JRILVwQIqMZA7gtPExZqmmJMEw98TdlbHJefEO0W0unHzv9BZtmXPr_2AyFi49h3zeKKH_r3-sv8h43Ln6W48r1SRpaVDuz-fEcN-Us97-Zad_wVL3mC87fLhC3ePKsJuQAU9h76pJSQguKeIN8p16I4YKF-V9SBbSDjNhm4KnSYoGHWgo5J0yAy3U9EIfaGOD2M5Vwq15kxyLRqOtt_zRKkH_7aDHX3XKOkgLE16k2uGvxjF6fTMD8wTAq9wnCczZozQRybGN3mdEnz0rVDo5vN-SPSU6x_mC0)
 
 * รูปที่ 4 ซื้อสินค้าออนไลน์
 ```
