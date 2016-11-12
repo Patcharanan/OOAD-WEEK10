@@ -1,3 +1,4 @@
+#นายพชรนันท์ จันทร์รักษ์ 57030198
 # Sequance Diagram
 
 *  รูปที่ 1 Application Line FirtsTime
@@ -116,3 +117,4 @@ TopUpMachine -> User : Top up Complete
 @enduml
 ```
 [![IMAGE ALT TEXT](http://www.plantuml.com/plantuml/img/bP8nQyCm48Lt_OeZ7Jg5TYvjI4a9T4WeTK87uq4-dsCHMJBIYU9_Nzbn0uanRRH9-kxTlUCjFKl7eTP2i69DCDlP1a836vihJJCXzfuSp1SGt_VDHcAb3C5Jl0Qi844Y0rDCGfgG1odO4dzRTvo2FnnvVsP3dPCJ5qWiILhFL4TuLH4UhuGVXg81cgTtZ_6irzcertDf3GDQRTsBes81wPTqHfb31biRvvMCrOqokGuKTLuHEnS79mrdWz24ttSJtxlb66h_CieLWKGCJc8B_vWChXscRsGK5HbyKXbCSRD6RozDGcylWvMj6qrCexbxhrqu-WoTiIMPei-Ok3ybvgBlgMYypLtSeY_Ztw_E3m00)
+#นายพชรนันท์ จันทร์รักษ์ 57030198
